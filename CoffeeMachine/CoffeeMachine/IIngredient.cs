@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CoffeeMachine
 {
-    internal class CoffeeMachine
+    internal interface IIngredient
     {
+        void AddIngredient(int grams);
+        void RemoveIngredient(int grams);
+        int GetGramsOfIngredients();
     }
 }

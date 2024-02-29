@@ -11,13 +11,6 @@ namespace CoffeeMachine
         public string Name { get; private set; }
         public int mLOfLiquid {  get; private set; }
 
-
-
-        public Liquid(string name) 
-        {
-            Name = name;
-        }
-
         public void AddLiquid(int mL)
         {
             mLOfLiquid += mL;
@@ -31,6 +24,11 @@ namespace CoffeeMachine
         public int GetLiquidMillilitersOfLiquid()
         {
             return mLOfLiquid;
+        }
+
+        public Liquid(string name)
+        {
+            Name = name;
         }
     }
 }
