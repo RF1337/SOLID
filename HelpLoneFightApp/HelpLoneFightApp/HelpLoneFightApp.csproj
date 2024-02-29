@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Characters\Wizard.cs~RFf433ee.TMP" />
+  </ItemGroup>
+
 </Project>
