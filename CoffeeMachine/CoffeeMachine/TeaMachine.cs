@@ -8,7 +8,8 @@ namespace CoffeeMachine
 {
     internal class TeaMachine : BrewingMachine
     {
-        public TeaMachine() : base(new Liquid("Water"), new Ingredient("Tea leaves"), 150, 1)
+        // Using Water as liquid, Tea leaves as ingredient, takes 150 mL to make a cup and brews 3 cups per brew
+        public TeaMachine() : base(new Liquid("Water"), new Ingredient("Tea leaves"), 150, 3)
         {
 
         }

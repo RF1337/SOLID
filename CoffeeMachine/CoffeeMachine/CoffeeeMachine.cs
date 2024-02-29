@@ -9,7 +9,8 @@ namespace CoffeeMachine
     // Naming it with 3 e's instead, since namespace would get in the way
     internal class CoffeeeMachine : BrewingMachine
     {
-        public CoffeeeMachine() : base(new Liquid("Water"), new Ingredient("Coffee Powder"), 150, 1)
+        // Using Water as liquid, Tea leaves as ingredient, takes 200 mL to make a cup and brews 1 cups per brew
+        public CoffeeeMachine() : base(new Liquid("Water"), new Ingredient("Coffee Powder"), 200, 1)
         {
             
         }
