@@ -8,6 +8,7 @@ namespace BirdsFlyingAroundApp
 {
     internal interface IDrawable
     {
-        void GetDrawingCoordinates();
+        // Only able to implement IDrawable if it contains information to get drawn
+        string GetDrawingCoordinates();
     }
 }
